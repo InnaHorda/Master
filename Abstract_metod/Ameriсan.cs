@@ -6,17 +6,15 @@ namespace Abstract_metod
 {
     class Ameriсan:Human
     {
-        public string Hello { get; set; }
-        public string Nationality { get; set; }
-        public Ameriсan(string Name, string Hello, string Nationality) :base(Name)
+       
+        public Ameriсan(string Name) :base(Name)
         {
             this.Name = Name;
-            this.Hello = Hello;
-            this.Nationality = Nationality;
+         
         }
         public override void Say_Hello()
         {
-            Console.WriteLine(Nationality +Name + " say " + Hello);
+            Console.WriteLine ( Name+ "Hello");
         }
     }
 }
