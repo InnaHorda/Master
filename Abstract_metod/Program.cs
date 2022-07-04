@@ -8,9 +8,9 @@ namespace Abstract_metod
         static void Main(string[] args)
         {
             List<Human> Humans = new List<Human>();
-            Humans.Add(new Ukrainian("Mychaulo", "Доброго дня","Ukrainian "));
-            Humans.Add(new Ameriсan("Hi"));
-            Humans.Add(new Polish("Michal", "Czesz", "Polish "));
+            Humans.Add(new Ukrainian("Mychaulo"));
+            Humans.Add(new Ameriсan("Maikl "));
+            Humans.Add(new Polish("Michal"));
 
             foreach (Human H in Humans)
             {
