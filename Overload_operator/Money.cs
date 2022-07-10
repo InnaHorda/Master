@@ -7,7 +7,7 @@ namespace Overload_operator
    public class Money
     {
        public enum Currency
-        { USD=35 , EUR=40 , UAH=1 }
+        { USD=35 , EUR=40  , UAH=1 }
         public decimal Amount { get; set; }
         public Currency Unit { get; set; }
         public Money(decimal Amount,Currency Unit)
