@@ -14,7 +14,7 @@ namespace Abstract_metod
         }
         public override void Say_Hello()
         {
-            Console.WriteLine("Ukrainian" + Name + " вiдповiсть Доброго дня ");
+            Console.WriteLine("Ukrainian" + Name + " вiдповiсть Доброго дня    ");
         }
     }
 }
