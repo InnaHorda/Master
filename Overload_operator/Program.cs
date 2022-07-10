@@ -18,11 +18,11 @@ namespace Overload_operator
             Money sum2 = Hmoney + Mymoney;
             Money sum3 = Hmoney + Nmoney;
             Money sum4 = Mymoney + BBmoney;
-            Console.WriteLine(sum.Amount+ "" +sum.Unit);
-            Console.WriteLine(sum1.Amount+" " +sum1.Unit);
-            Console.WriteLine(sum2.Amount + " " + sum2.Unit);
-            Console.WriteLine(sum3.Amount + " " + sum3.Unit);
-            Console.WriteLine(sum4.Amount+ " "+ sum4.Unit);
+            Console.WriteLine("Сума: "+sum.Amount+ "" +sum.Unit);
+            Console.WriteLine("Сума: "+sum1.Amount+" " +sum1.Unit);
+            Console.WriteLine("Сума: "+sum2.Amount + " " + sum2.Unit);
+            Console.WriteLine("Сума: "+sum3.Amount + " " + sum3.Unit);
+            Console.WriteLine("Сума: "+sum4.Amount+ " "+ sum4.Unit);
         }
     }
 }
