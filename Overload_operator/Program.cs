@@ -23,6 +23,8 @@ namespace Overload_operator
             Console.WriteLine("Сума: "+sum2.Amount + " " + sum2.Unit);
             Console.WriteLine("Сума: "+sum3.Amount + " " + sum3.Unit);
             Console.WriteLine("Сума: "+sum4.Amount+ " "+ sum4.Unit);
+            sum4.Print();
+
         }
     }
 }
